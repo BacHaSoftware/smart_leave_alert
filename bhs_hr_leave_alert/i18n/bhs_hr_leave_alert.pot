@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bhs_hr_leave_alert
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 09:53+0000\n"
+"PO-Revision-Date: 2025-08-22 09:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bhs_hr_leave_alert
+#. odoo-python
+#: code:addons/bhs_hr_leave_alert/models/hr_leave.py:0
+msgid "Not enough annual leave"
+msgstr ""
+
+#. module: bhs_hr_leave_alert
+#: model:ir.model,name:bhs_hr_leave_alert.model_hr_leave
+msgid "Time Off"
+msgstr ""
+
+#. module: bhs_hr_leave_alert
+#. odoo-python
+#: code:addons/bhs_hr_leave_alert/models/hr_leave.py:0
+msgid "Time Off Notification"
+msgstr ""
+
+#. module: bhs_hr_leave_alert
+#. odoo-python
+#: code:addons/bhs_hr_leave_alert/models/hr_leave.py:0
+msgid ""
+"You have used more annual leave days than the number of months you have "
+"worked this year. These leave days may be revoked if you leave your job."
+msgstr ""
