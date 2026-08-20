@@ -12,7 +12,7 @@
     'external_dependencies': {
         'python': [],
     },
-    'images': [],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'license': 'LGPL-3'
