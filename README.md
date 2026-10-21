@@ -28,6 +28,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#known-limitation-odoo-20">Known limitation (Odoo 20)</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact-us">Contact us</a></li>
   </ol>
@@ -76,6 +77,16 @@ When the request uses more annual leave than the accrued number of worked months
 
 * <code>Instant Alerts</code>: Users receive warning notifications as soon as excessive annual leave usage is detected.
 * <code>Controlled Consumption</code>: Leave cannot be taken against allocations outside the valid date range.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- KNOWN LIMITATION -->
+## Known limitation (Odoo 20)
+
+In standard Odoo 20, when an employee without HR rights creates a time off request with a time off type that needs an allocation, and no allocation of that type covers the chosen dates, Odoo shows an Access Error instead of a clear message. For HR officers there is no error, but Odoo changes the time off type to one that needs no allocation. This comes from Odoo itself, not from this module, and annual paid time off is not affected: the module keeps the type and explains the problem when you save.
+
+Workaround: choose dates that are covered by a valid allocation of that time off type, or ask HR to create the allocation (or the request) first.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

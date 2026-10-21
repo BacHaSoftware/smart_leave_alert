@@ -1,6 +1,6 @@
 {
     'name': 'Smart Leave Alert',
-    'version': '19.0.1.0',
+    'version': '20.0.1.0.4',
     'author': 'Bac Ha Software',
     'website': 'https://bachasoftware.com',
     'maintainer': 'Bac Ha Software',
@@ -9,9 +9,6 @@
     'description': "Alerts users when their leave exceeds their annual leave allowance",
     'depends': ['hr_holidays'],
     'data': [],
-    'external_dependencies': {
-        'python': [],
-    },
     'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,

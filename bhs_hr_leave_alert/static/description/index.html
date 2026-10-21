@@ -113,6 +113,21 @@
                     <img src="./imgs/screen/config_2.png" class="img img-fluid mx-auto" style=" border-radius: 25px; "/>
                 </div>
             </div>
+            <div class="row" style="margin-top: 35px">
+                <div class="col-sm-12 col-md-12 col-lg-12 mt-0">
+                    <div style="border: 1px solid #F3F4F6; border-radius:14px; padding: 16px 20px; background-color: #FFFBF5;">
+                        <h5 style="font-family: Inter; font-weight: 700; font-size: 18px; line-height: 28px; color: #101828; margin-bottom:8px;">
+                            Known limitation (Odoo 20)
+                        </h5>
+                        <p style="font-family: Inter; font-weight: 400; font-size: 14px; line-height: 24px; text-align: justify; color: #4A5565; margin-bottom: 8px;">
+                            In standard Odoo 20, when an employee without HR rights creates a time off request with a time off type that needs an allocation, and no allocation of that type covers the chosen dates, Odoo shows an Access Error instead of a clear message. For HR officers there is no error, but Odoo changes the time off type to one that needs no allocation. This comes from Odoo itself, not from this module, and annual paid time off is not affected: the module keeps the type and explains the problem when you save.
+                        </p>
+                        <p style="font-family: Inter; font-weight: 400; font-size: 14px; line-height: 24px; text-align: justify; color: #4A5565; margin-bottom: 0;">
+                            Workaround: choose dates that are covered by a valid allocation of that time off type, or ask HR to create the allocation (or the request) first.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <hr style="margin-top: 56px; margin-bottom: 48px; border-top: 1px solid #F3F4F6; margin-left: calc(-46vw + 45.5%); width: 98vw;">
